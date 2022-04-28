@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter the value of a and b\n");
+    scanf("%d%d",&a,&b);
+    sum= a+b;
+    printf("sum of a and b is %dn",sum);
+    if(sum >20)
+    {
+        printf("sum is gretarer then 20\n");
+    }    
+    /* else if sum(sum>10)
+    {
+        printf("sum is greater than 10 and less than 20\n");
+    }    
+    else
+    {
+        printf("sum is less than 10\n");
+    }*/
+    return 0;
+}
+   output:
+enter the value of a and b
+169
+289
+sum of a and b is 458nsum is gretarer then 20
