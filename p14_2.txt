@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{ 
+    char strname [40]= "Vedant Vasaikar";
+    printf ("The string is %s\n", strname);
+    return 0;
+}
+
+
+Output-
+The string is Vedant Vasaikar
